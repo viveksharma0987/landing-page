@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+/* .container {
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 119px;
+  } */
+
+body{
+    background-image: url(/logo.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.logo {
+    /* background-color: white;
+  margin-left: 20px; */
+  color: white;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 31px 83px;
+    height: 74px;
+}
+.grow-list{
+    flex-grow: 1;
+  padding-left: 62px;
+}
+.line{
+    width: 1px;
+  height: 50px;
+  background-color: #fff;
+  margin-left: 64px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 88px;
+   
+    
+}
+
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+.btn button{
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 10px;
+    background-color: #a91299;
+    color: #ffffff;
+   
+}
+main{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-top: 200px;
+}
+ .heading h1{
+     /* display: inline-block;
+     width: 100%;   */
+    text-align: center;
+     
+    font-size: 70px;
+    /* margin-left: 300px; */
+    color: white;
+    font-weight: 700;
+    line-height: 5rem;
+    font-style: normal;
+    
+ }
+ .heading p{
+    /* display: inline-block;
+    width: 100%; */
+    text-align: center;
+    /* margin-top: 20px; */
+    font-size: 20px;
+    /* margin-left: 300px; */
+    color: white;
+    font-weight: 800;
+    margin-top: 16px;
+    
+
+
+ }
+ .btna button{
+    margin: 20px 20px;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: beige;
+    padding: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+ }
